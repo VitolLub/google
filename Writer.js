@@ -1,6 +1,6 @@
 Writer = (function(){
 
-  jQuery.fn.extend({
+  window.jQuery.fn.extend({
       setCursorPosition: function(position){
           if(this.length == 0) return this;
           return $(this).setSelection(position, position);
