@@ -93,7 +93,7 @@ Writer = (function(){
         set.write()
       },set.getNum(10,300))
     } else console.log('finished writing')
-  }
+  } 
 
   return set
 })()
