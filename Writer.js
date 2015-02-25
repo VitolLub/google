@@ -86,7 +86,7 @@ Writer = (function(){
 
   set.write = function(){
     if(set.i<set.s.length){
-      setTimeout(function(){
+      window.setTimeout(function(){
         set.o.setCursorPosition(set.i)
         set.o.insertAtCursor(set.s[set.i])
         set.i++
